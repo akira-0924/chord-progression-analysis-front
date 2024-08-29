@@ -1,10 +1,13 @@
+*.css
+# next.js build output
+.next
+out
+# dotenv environment variables file (build for Zeit Now)
+.env
+.env.local
+# Dependency directories
 node_modules
-.vscode/*
-*.yml
-build
-dist
-dist-ssr
-*.local
-logs
-*.log
-.DS_Store
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
